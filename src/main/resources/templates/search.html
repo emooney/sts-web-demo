@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>SSN Search</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>SSN Search</h1>
+    <form action="#" th:action="@{/search}" th:object="${search}" method="post">
+    	<p>Id: <input type="text" th:field="*{id}" /></p>
+        <p>SSN: <input type="text" th:field="*{ssn}" /></p>
+        <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
+    </form>
+</body>
+</html>
