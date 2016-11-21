@@ -10,8 +10,8 @@ public class PersonService {
 	public Person getPerson() {
 		Person me = new Person();
 		me.setAge(48);
-		me.setFirstName("eric");
-		me.setLastName("mooney");
+		me.setFirstName("Eric");
+		me.setLastName("ooney");
 		
 		return me;
 	}
